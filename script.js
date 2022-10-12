@@ -1,4 +1,4 @@
-
+//from your created firebase account(not same for people::: change)
    const firebaseApp = firebase.initializeApp({ 
       apiKey: "AIzaSyBSZv_VneXtrS0bS4KwGKU9bL0fOOP5OtE",
       authDomain: "javascript-auth-481db.firebaseapp.com",
