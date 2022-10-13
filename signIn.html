@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-firestore-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.11.0/firebase-auth-compat.js"></script>
 </head>
 <body>
 	<body>
 	<div class="container">    
         <div>           
-        <h3>Create an account</h3>
-        <p>Create an account using the form below.</p>
+        <h3>Sign in to your existing account</h3>
+        
         </div> 
         <!-- Form -->
         <div class="form">
@@ -39,7 +42,10 @@
             </div>
              <br>
             <!-- Submit -->
-            <button id = "submit-btn" onclick = "signIn()">SIGN IN </button>	
+            <button id = "submit-btn" onclick = "signIn()"> SIGN IN </button>	
+              <!-- Sign-Up -->
+            <h5>Don't have an account?</h5>
+            <a href="index.html">Sign Up</a>
         </div>
     
     <script src="script.js"></script>
